@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="61129" started-at="2020-07-25T15:28:39Z" finished-at="2020-07-25T15:29:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="61129" started-at="2020-07-25T15:28:39Z" finished-at="2020-07-25T15:29:40Z">
+      <class name="com.tests.AzureTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tests.AzureTest@78dd667e]" name="setUp" is-config="true" duration-ms="19582" started-at="2020-07-25T15:28:39Z" finished-at="2020-07-25T15:28:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test2()[pri:1, instance:com.tests.AzureTest@78dd667e]" name="test2" duration-ms="502" started-at="2020-07-25T15:28:59Z" description="verifying tripadvisor logo is displayed" finished-at="2020-07-25T15:29:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.AzureTest@78dd667e]" name="tearDown" is-config="true" duration-ms="1465" started-at="2020-07-25T15:29:00Z" finished-at="2020-07-25T15:29:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tests.AzureTest@78dd667e]" name="setUp" is-config="true" duration-ms="13848" started-at="2020-07-25T15:29:01Z" finished-at="2020-07-25T15:29:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test3()[pri:2, instance:com.tests.AzureTest@78dd667e]" name="test3" duration-ms="588" started-at="2020-07-25T15:29:15Z" description="verifying Sign Up link is displayed" finished-at="2020-07-25T15:29:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.AzureTest@78dd667e]" name="tearDown" is-config="true" duration-ms="1044" started-at="2020-07-25T15:29:16Z" finished-at="2020-07-25T15:29:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tests.AzureTest@78dd667e]" name="setUp" is-config="true" duration-ms="13451" started-at="2020-07-25T15:29:17Z" finished-at="2020-07-25T15:29:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test4()[pri:3, instance:com.tests.AzureTest@78dd667e]" name="test4" duration-ms="8225" started-at="2020-07-25T15:29:30Z" description="verifying Trips Menu is displayed" finished-at="2020-07-25T15:29:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.AzureTest@78dd667e]" name="tearDown" is-config="true" duration-ms="1717" started-at="2020-07-25T15:29:39Z" finished-at="2020-07-25T15:29:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.AzureTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
