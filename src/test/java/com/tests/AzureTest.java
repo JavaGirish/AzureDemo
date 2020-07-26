@@ -52,8 +52,8 @@ public class AzureTest {
 	@Story("Story Name: SignUp Link Test")
 	//@Step("Step 3")
 	public void test3() {
-		Assert.assertTrue(driver.findElement(By.cssSelector(".HLvj7Lh5._9RPF_Kg6")).isDisplayed());
-		Assert.assertTrue(driver.findElement(By.cssSelector(".HLvj7Lh5._9RPF_Kg6")).isEnabled());
+		Assert.assertFalse(driver.findElement(By.cssSelector(".HLvj7Lh5._9RPF_Kg6")).isDisplayed());
+		//Assert.assertTrue(driver.findElement(By.cssSelector(".HLvj7Lh5._9RPF_Kg6")).isEnabled());
 
 	}
 
