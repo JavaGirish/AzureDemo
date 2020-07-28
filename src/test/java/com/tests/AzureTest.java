@@ -32,7 +32,7 @@ public class AzureTest {
 		driver.get("https://www.tripadvisor.in/");
 
 		driver.manage().timeouts().pageLoadTimeout(3, TimeUnit.MINUTES);
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
 	}
 	
@@ -41,7 +41,7 @@ public class AzureTest {
 	@Severity(SeverityLevel.MINOR)
 	@Description("Test Case Description: Verify that the logo is displayed")
 	@Story("Story Name: Logo Test")
-	//@Step("Step 2")
+	
 	public void test2() {
 
 		Assert.assertTrue(driver.findElement(By.cssSelector("img[alt='Tripadvisor']")).isDisplayed());
@@ -52,7 +52,7 @@ public class AzureTest {
 	@Severity(SeverityLevel.CRITICAL)
 	@Description("Test Case Description: Verify that the signup link is displayed and enabled")
 	@Story("Story Name: SignUp Link Test")
-	//@Step("Step 3")
+	
 	public void test3() {
 		Assert.assertTrue(driver.findElement(By.cssSelector(".HLvj7Lh5._9RPF_Kg6")).isDisplayed());
 		//Assert.assertTrue(driver.findElement(By.cssSelector(".HLvj7Lh5._9RPF_Kg6")).isEnabled());
@@ -63,9 +63,7 @@ public class AzureTest {
 	@Severity(SeverityLevel.TRIVIAL)
 	@Description("Test Case Description: Verify that the Trips option is seen in Menu")
 	@Story("Story Name: Menu Test")
-	//@Step("Step 4")
 	public void test4() {
-
 		
 		Assert.assertTrue(driver.findElement(By.xpath("//span[text()='Trips']")).isDisplayed());
 
