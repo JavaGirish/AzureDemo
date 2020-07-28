@@ -1,6 +1,18 @@
+sudo: required
 language: java
-jdk:
-  - openjdk8
-dist: trusty
-addons: # get google-chrome-stable
+jdk: oraclejdk13
+      
+services:
+- xvfb
+
+addons:
   chrome: stable
+
+before_install:
+  - wget https://chromedriver.storage.googleapis.com/2.38/chromedriver_linux64.zip
+  - unzip chromedriver_linux64.zip
+  - sudo cp chromedriver /usr/bin
+  
+script: 
+- mvn clean
+- mvn test
