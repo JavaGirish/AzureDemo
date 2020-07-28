@@ -55,17 +55,18 @@ public class AzureTest {
 	
 	public void test3() {
 		Assert.assertTrue(driver.findElement(By.cssSelector(".HLvj7Lh5._9RPF_Kg6")).isDisplayed());
-		//Assert.assertTrue(driver.findElement(By.cssSelector(".HLvj7Lh5._9RPF_Kg6")).isEnabled());
+		
+		
 
 	}
 
-	@Test(priority = 3, description = "verifying Trips Menu is displayed")
+	@Test(priority = 3, description = "verifying Sign in button is displayed")
 	@Severity(SeverityLevel.TRIVIAL)
-	@Description("Test Case Description: Verify that the Trips option is seen in Menu")
+	@Description("Test Case Description: Verify that the Sign in button is displayed")
 	@Story("Story Name: Menu Test")
 	public void test4() {
 		
-		Assert.assertTrue(driver.findElement(By.xpath("//span[text()='Trips']")).isDisplayed());
+		Assert.assertTrue(driver.findElement(By.xpath("//span[text()='Sign in']")).isDisplayed());
 
 	}
 
