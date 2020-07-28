@@ -65,11 +65,7 @@ public class AzureTest {
 	@Story("Story Name: Menu Test")
 	//@Step("Step 4")
 	public void test4() {
-<<<<<<< HEAD
-=======
-		WebDriverWait wait =new WebDriverWait(driver,20);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='Trips']")));
->>>>>>> 879721067ade6433b74f5687121548c85329d45e
+
 		
 		Assert.assertTrue(driver.findElement(By.xpath("//span[text()='Trips']")).isDisplayed());
 
