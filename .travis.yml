@@ -1,1 +1,6 @@
 language: java
+jdk:
+  - openjdk8
+dist: trusty
+addons: # get google-chrome-stable
+  chrome: stable
